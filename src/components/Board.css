@@ -1,0 +1,41 @@
+.board {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dado {
+  align-self: flex-end;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.path {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.cupboard {
+  align-self: center;
+}
+
+.path__cell {
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+}
+
+.here {
+  background-color: aqua;
+}
+
+.cupboard__cell {
+  align-self: center;
+  background-color: salmon;
+  width: 100px;
+  height: 50px;
+}
